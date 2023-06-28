@@ -1,0 +1,22 @@
+{
+  "name": "react-1",
+  "version": "1.0.0",
+  "description": "This is react project",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/vaibhavpatil23/React-0.2.2)"
+  },
+  "keywords": [
+    "react",
+    "vaibhav"
+  ],
+  "author": "vaibhav patil",
+  "license": "ISC",
+  "dependencies": {
+    "react-dom": "^18.2.0"
+  }
+}

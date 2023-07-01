@@ -1,44 +1,10 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-const heading = React.createElement("h1", { id: "heading" }, "vaibhav patil");
+// import React from "react";
+// import ReactDOM from "react-dom/client";
+// const heading = React.createElement("h1", { id: "heading" }, "vaibhav patil");
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+// const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(heading);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// root.render(heading);
 
 // const parent = React.createElement("div", { id: "parent" }, [
 //   React.createElement("div", { id: "child" }, [

@@ -10,3 +10,4 @@ react
 - minification
 - Bundaling
 - Compressing
+- Error Handling

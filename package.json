@@ -23,5 +23,9 @@
   "devDependencies": {
     "parcel": "^2.9.3",
     "process": "^0.11.10"
-  }
+  },
+  "browsersList":[
+    "last 10 crome version",
+    "last 2 firefox version"
+  ]
 }

@@ -2946,30 +2946,11 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client");
 var _clientDefault = parcelHelpers.interopDefault(_client);
-// const heading = React.createElement("h1", { id: "heading" }, "vaibhav patil");
-// const root = ReactDOM.createRoot(document.getElementById("root"));
-// root.render(heading);
-const parent = /*#__PURE__*/ (0, _reactDefault.default).createElement("div", {
-    id: "parent"
-}, [
-    /*#__PURE__*/ (0, _reactDefault.default).createElement("div", {
-        id: "child"
-    }, [
-        /*#__PURE__*/ (0, _reactDefault.default).createElement("h1", {}, "vaibhav is here"),
-        /*#__PURE__*/ (0, _reactDefault.default).createElement("h2", {}, "I am a h2 tag"),
-        /*#__PURE__*/ (0, _reactDefault.default).createElement("h3", {}, "I am a h3 tag")
-    ]),
-    /*#__PURE__*/ (0, _reactDefault.default).createElement("div", {
-        id: "child2"
-    }, [
-        /*#__PURE__*/ (0, _reactDefault.default).createElement("h1", {}, "I am a h1 tag"),
-        /*#__PURE__*/ (0, _reactDefault.default).createElement("h2", {}, "I am a h2 tag"),
-        /*#__PURE__*/ (0, _reactDefault.default).createElement("h3", {}, "I am a h3 tag")
-    ])
-]);
-console.log(parent);
+const heading = /*#__PURE__*/ (0, _reactDefault.default).createElement("h1", {
+    id: "heading"
+}, "vaibhav patil");
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
-root.render(parent);
+root.render(heading);
 
   $parcel$ReactRefreshHelpers$6024.postlude(module);
 } finally {

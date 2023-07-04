@@ -27,8 +27,10 @@ const RestaurentCard = () => {
   return (
     <div className="rest-card">
       <img
-      className="rest-logo"
-       src="https://images.pexels.com/photos/313716/pexels-photo-313716.jpeg" alt="" />
+        className="rest-logo"
+        src="https://images.pexels.com/photos/313716/pexels-photo-313716.jpeg"
+        alt=""
+      />
       <h3>Meghana Food</h3>
       <h4>Biryani, North Indian,Asian</h4>
       <h4>4.4 start</h4>
@@ -42,29 +44,26 @@ const Body = () => {
     <div className="body">
       <div className="search">Search</div>
       <div className="res-container">
-      <RestaurentCard />
-      <RestaurentCard />
-      <RestaurentCard />
-      <RestaurentCard />
-      <RestaurentCard />
-      <RestaurentCard />
-      <RestaurentCard />
-      <RestaurentCard />
-      <RestaurentCard />
-      <RestaurentCard />
-      <RestaurentCard />
-      <RestaurentCard />
-      <RestaurentCard />
-      <RestaurentCard />
-      <RestaurentCard />
-      <RestaurentCard />
-      <RestaurentCard />
-      <RestaurentCard />
-      <RestaurentCard />
-      <RestaurentCard />
-      <RestaurentCard />
-      <RestaurentCard />
-      <RestaurentCard />
+        <RestaurentCard />
+        <RestaurentCard />
+        <RestaurentCard />
+        <RestaurentCard />
+        <RestaurentCard />
+        <RestaurentCard />
+        <RestaurentCard />
+        <RestaurentCard />
+        <RestaurentCard />
+        <RestaurentCard />
+        <RestaurentCard />
+        <RestaurentCard />
+        <RestaurentCard />
+        <RestaurentCard />
+        <RestaurentCard />
+        <RestaurentCard />
+        <RestaurentCard />
+        <RestaurentCard />
+        <RestaurentCard />
+        <RestaurentCard />
       </div>
     </div>
   );
